@@ -1,0 +1,11 @@
+Question 1: Sorting a Multi-Dimensional Array
+
+Task: You must write a function (called "depthSort") which takes a Multi-Dimensional Array and a field name as an input and returns a copy of that array sorted by the given field.
+
+Requirements: Please use PHP. You'll need PHP >= 5.4 to run the input (it uses array shorthand).
+
+Input: The input is found in input.php.
+
+Test: I will run your solution against test.php. Remember, however, you are not designing this function to fulfill the test conditions but to solve the problem so I'll be looking at that as well. What I mean is don't just do the following:
+
+function depthSort($foo, $bar) { return "BerlinLondonParisWashington DC" };

@@ -1,0 +1,42 @@
+Question 4 - Recursive DB Query
+
+Task:
+Imagine a database that has just two different models:
+
+1. Groups
+2. People
+
+Groups can contain people and other groups (which in turn can contain other groups and people). Such that the following is possible:
+
+(G: Group, P: Person)
+
+G1 contains [
+	G2, G3, P1, P2, P3, P4, P5	
+];
+
+G2 contains [
+	P7, P8, P9, P10
+];
+
+G3 contains [
+	G4, P11
+]
+
+G4 contains [
+	P12
+];
+
+Using your preferred database solution, produce a simple schema for this database as well as a query which will resolve all the people in a given group (including those people in nested groups). For instance:
+
+SELECT PEOPLE FROM G1 AND PEOPLE FROM ANY GROUPS THAT BELONG TO G1;
+
+Requirements:
+None, feel free to use whatever database solution you prefer.
+
+Input:
+Your query should look for all people in Group 1 or any of it's descendant group (using the data above).
+
+Output:
+Your query should output P1,P2,P3,P4,P5 .. P12
+
+

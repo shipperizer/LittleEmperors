@@ -1,0 +1,9 @@
+Question 2 - Email Validation
+
+Task: Given the "email addresses" in the "input" file, write a simple validator to check whether or not each address is valid. As a help, whether or not each email is valid is listed in the "output" file.
+
+Requirements: Use whatever language you'd like and feel comfortable with.
+
+Input: input
+
+Test: Your validator will output FAIL/PASS correctly for each email (as listed in output).

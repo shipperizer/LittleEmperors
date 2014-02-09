@@ -1,0 +1,9 @@
+Question 3 - PHP Debugging
+
+Task: Turn the terrible PHP in debug.php into a simple working message logger.
+
+Requirements: Use PHP. You will need PHP >= 5.4 to use traits.
+
+Input: None
+
+Test: I'll run the script.
